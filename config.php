@@ -2,16 +2,16 @@
 /*
  * Конфигурация подключения к базе данных
  */
-define('DB_HOST', "localhost");
-define('DB_USERNAME', "root");
-define('DB_PASSWORD', "123");
-define('DB_NAME', "vk_test");
+define('DB_HOST', "Enter database host");
+define('DB_USERNAME', "Enter database username");
+define('DB_PASSWORD', "Enter password to database");
+define('DB_NAME', "Enter database name");
 
 /*
  * Конфигурация cache
  */
-define('CACHE_HOST', "127.0.0.1");
-define('CACHE_PORT', 11211);
+define('CACHE_HOST', "Enter cache username");
+define('CACHE_PORT', "Enter cache port");
 define('CACHE_EXPIRE', 1500);
 
 /*
